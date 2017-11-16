@@ -51,7 +51,7 @@ struct objc_object {
 typedef struct objc_object *id;
 ```
 
->为了进一步验证我的判断，然后翻阅了苹果开源的[runtime](https://opensource.apple.com/source/objc4/objc4-208/runtime/Protocol.h.auto.html)，发现`Protocol`就是继承自`Object`的。
+>为了进一步验证我的判断，然后翻阅了苹果开源的runtime，[点击查看](https://opensource.apple.com/source/objc4/objc4-208/runtime/Protocol.h.auto.html)，发现`Protocol`就是继承自`Object`的。
 
 ```objective-c
 #ifndef _OBJC_PROTOCOL_H_
